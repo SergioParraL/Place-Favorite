@@ -1,0 +1,162 @@
+body {
+	color: #FFFFFF;
+	text-align: center;
+	margin:  0 auto;
+	background: #303030;
+}
+.main{
+	width: 638px;
+	margin:  .3em auto;
+	padding: 0 0;
+	background: linear-gradient(red, blue);
+	scale: 120%;
+	position: relative;
+	top: 10em;
+}
+/* -----------------CUERPO	---------------------- */
+
+	header, article,{
+		display: block;
+	}
+
+	.header{
+		background: url('The Great Outdoors/features/IMG_4009.JPG') no-repeat center ;
+		height: 28em;
+	}
+	
+	section .image span:first-child{
+		margin-left: -2.4em;
+	}
+
+	section .image span:last-child{
+		margin-left: -11.9em;
+	}
+
+	footer{
+		height: 3em;
+	}
+
+/* -----------------IMAGENES----------------------- */
+
+	header img  {
+		width: 6em;
+		height: 6em;
+		margin-top: 4em;
+	}
+
+	header img:hover{
+		scale: 120%;
+	}
+
+	.image, a .anchor{
+		display: inline-flex;
+		justify-content: space-around;
+	}
+
+	.world img{
+		display: inline-block;
+		width: 10em;
+		height: 17em;
+		margin: .5em;
+	}
+
+	article.End img{
+		width: 39.97em;
+		height:  30em;
+		margin-top: 1em;
+	}
+
+	span img{
+		width: 15.5em;
+		height: 11em;
+		margin: .5em;
+		border-radius: 10%;
+	}
+
+	nav ul li img{
+		width: 3em;
+		height: 3em;
+		position: absolute;
+		top: -2.5em;
+	}
+
+/* -----------------TEXTOS------------------------- */
+
+	a, p, h3, h4 {
+		font-family: Loma;
+		font-size: .6em;
+	}
+
+	p{
+		margin: 0 auto;
+		width: 40.5em;
+		color: #FFFFFF;
+		margin-bottom: 2em;
+		font-size: .7em;
+	}
+
+	h1{
+		font-family: "FreeSerif";
+		font-size: 2.6em;
+		margin-bottom: 0;
+	}
+
+	h3{
+		font-size: 1.5em;
+		margin: 0.7em 1em .5em 0;
+	}
+
+	h4{
+		font-size: 1em;
+	}
+	aside a{
+		color: #0088F3;
+		font-size: .7em;
+	}
+
+	header p:hover, aside a:hover{
+		text-decoration: underline;
+		scale: 120%;
+	}
+/* ------------------MENU----------------------------*/
+
+	nav ul, footer ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li, footer ul li{
+		width: 12%;
+		display: inline-flex;
+		justify-content: space-around;
+	}
+	nav ul li a {
+		margin-top: 4em;
+		display: block;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	footer ul li a {
+		display: block;
+		text-decoration: none;
+		color: #FFFFFF;
+		margin-top: 2em;
+	}
+
+	footer ul li:first-child{
+		width: 13em;
+	}
+
+	footer{
+		background:#0A0A0C;
+		margin-top: -0.33em;
+	}
+
+	#ubication:hover{
+		scale: none;
+	}
+
+	header nav ul li:hover,footer ul li:hover{
+		scale: 150%;
+	}
